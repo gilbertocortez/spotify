@@ -1,0 +1,35 @@
+body {
+    background-color: #1C2120;
+    color: #CCC;
+}
+
+header {
+    margin-bottom: 3rem;
+}
+
+.container button {
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#home_container {
+    display: grid;
+    place-items: center;
+}
+
+#home_container button {
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header_logo {
+    width: 125px;
+    height: 125px;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
